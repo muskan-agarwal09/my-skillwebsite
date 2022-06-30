@@ -1,0 +1,203 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    /* width: 200px;
+    height: 200px; */
+    /* for padding and margin */
+    /* padding: 20px;
+    border: solid;
+    border-width: 10px; */
+
+    /* for relative postioning */
+    position: relative;
+    /* left: 400px; */
+
+    /* for absolute positioning */
+    /* position: absolute;
+    top: 400px;
+    left: 400px; */
+
+    /* for fixed postioning */
+    /* position: fixed;
+    top: 0; */
+
+    padding-top: 100px;
+}
+
+.middle-container {
+    /* width: 200px;
+    height: 200px;
+    background-color: red; */
+
+    /* for padding and margin */
+    /* margin-left: 260px;
+    border: solid;
+    border-width: 20px; */
+
+    /* for relative postioning */
+    /* position: relative;
+    bottom: 200px; */
+
+    /* for absolute positioning */
+    /* position: absolute;
+    left: 200px;
+    top: 200px; */
+
+    margin: 100px 0;
+}
+
+/* .bottom-container { */
+/* width: 200px;
+    height: 200px;
+    background-color: green; */
+
+/* for padding and margin */
+/* margin-left: 500px;
+    border: solid;
+    border-width: 10px; */
+
+/* for relative postioning */
+/* position: relative;
+    bottom: 400px;
+    left: 200px; */
+
+/* for absolute positioning */
+/* position: absolute;
+    bottom: 514px; */
+/* } */
+
+h1 {
+    font-size: 5.625rem;
+    color: #66BFBF;
+    margin: 50px auto 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inline {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.skill-1-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-2-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-3-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+/* .first-skill-description{
+    clear: left;
+}
+
+.second-skill-description{
+    clear: right;
+} */
+
+hr {
+    border: dotted;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.btn {
+    background: #11cdd4;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    
+}
+
+.para1{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.para2{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.para3{
+    color: white;
+    font-size: small;
+    padding-top: 20px;
+}
+
+p{
+    line-height: 2;
+}
